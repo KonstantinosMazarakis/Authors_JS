@@ -25,9 +25,6 @@ function App() {
       <Route exact path="/authors/add">
         <AddAuthor></AddAuthor>
       </Route>
-      {
-      
-      }
       <Route exact path="/authors/edit/:_id">
         <EditAuthor></EditAuthor>
       </Route>
@@ -35,6 +32,7 @@ function App() {
         <Unrecognized></Unrecognized>
       </Route>
       </Switch>
+
     </div>
     </BrowserRouter>
   );
